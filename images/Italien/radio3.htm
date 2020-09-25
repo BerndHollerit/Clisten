@@ -1,0 +1,1542 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Il sito internet di Radio 3 Rai</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function JS_Alert() { 
+  if (document.F_Cerca.Q_KEYS.value == '') {
+    alert('Inserisci un termine di ricerca valido. Grazie!');
+  } else
+  {
+    document.F_Cerca.submit();
+  }
+}
+//-->
+</script>
+
+ 
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+
+
+<BODY text="#000000" link="#333333" vlink="#333333" alink="#333333" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function js_goto() { //v2.0
+	i=document.F_Cerca.r2Stendina.selectedIndex;
+	v=document.F_Cerca.r2Stendina.options[i].value;
+	a=v.split(",");
+	d=a[0];
+	t=a[1];
+	document.F_Cerca.target=t;
+	document.F_Cerca.action=d;
+	document.F_Cerca.submit();
+}
+function js_goto_tematiche() { //v2.0
+	i=document.F_Cerca.tematiche.selectedIndex;
+	v=document.F_Cerca.tematiche.options[i].value;
+	a=v.split(",");
+	d=a[0];
+	t=a[1];
+	document.F_Cerca.target=t;
+	document.F_Cerca.action=d;
+	document.F_Cerca.submit();
+}
+
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+			function show5(){
+			 if (!document.layers&&!document.all)
+			 return
+			 var Digital=new Date()
+			 var hours=Digital.getHours()
+			 var minutes=Digital.getMinutes()
+			 var seconds=Digital.getSeconds()
+			 var dn="am"
+			 var oggi=new Date()
+			 if (hours>12){
+			 dn="pm"
+			 hours=hours-12
+			 }
+			 if (hours==0)
+			 hours=12
+			 if (minutes<=9)
+			 minutes="0"+minutes
+			 if (seconds<=9)
+			 seconds="0"+seconds
+			//change font size here to your desire
+			myclock="<font size='1' face='Verdana' color='ffffff'>"+oggi.getDate() + "/" + (oggi.getMonth()+1) + "/" +oggi.getYear()+ " - " + hours+":"+minutes+":"+seconds+" "+dn+"</font>"
+			if (document.layers){
+			document.layers.liveclock.document.write(myclock)
+			document.layers.liveclock.document.close()
+			}
+			else if (document.all)
+			liveclock.innerHTML=myclock
+			setTimeout("show5()",1000)
+			 }
+//-->
+</script>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<body leftmargin="0" topmargin="1" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
+  <tr> 
+    <td bgcolor="ECF1F5"><table width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+        <FORM NAME="ricerca" ACTION="http://ricerca.rai.it/RaiSearch.asp">
+          <SCRIPT LANGUAGE="JavaScript" SRC="/CmsRai/barre/jsricerca/1,,11,00.js"></SCRIPT>
+          <NOSCRIPT>
+          <INPUT TYPE=HIDDEN NAME="method" VALUE="mainQuery" />
+          <INPUT TYPE="HIDDEN" NAME="QuerySummaryCB" VALUE="querysummary" />
+          <INPUT TYPE="HIDDEN" NAME="numresults" VALUE="300" />
+          <INPUT TYPE="HIDDEN" name="batchhits" VALUE="10" />
+          <INPUT TYPE="hidden" name="xoptions" VALUE="sortboth" />
+          <INPUT TYPE="HIDDEN" NAME="querythreshold" VALUE="40" />
+          <INPUT TYPE="hidden" name="attachto" VALUE="db" />
+          <INPUT TYPE="HIDDEN" NAME="daterange" VALUE="lastdays" />
+          <INPUT TYPE="hidden" name="selectlastdays" value="10000" />
+          </NOSCRIPT>
+          <tr> 
+            <td width="15" rowspan="3"><img src="/radio3/images/home/bar01.gif" width="15"></td>
+            <td width="13" height="1" bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="15" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="15" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="36" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="70" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="100%" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="35" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="75" height="2"></td>
+            <td width="14" rowspan="3"><img src="/radio3/images/home/bar02.gif" width="14"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="100" height="2"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="8" height="2"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="100%" height="2"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="42" height="2"></td>
+            <td bgcolor="#FFFFFF"><img src="/radio3/images/home/whitepix.gif" width="42" height="2"></td>
+          </tr>
+          <tr> 
+            <td height="20" align="center" bgcolor="#DDDDDD"><a href="http://www.rai.it/tv" target="_top" class="raibar">TV</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.radio.rai.it" target="_top" class="raibar">RADIO</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.rai.it/news" target="_top" class="raibar">NEWS</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.community.rai.it" target="_top" class="raibar">COMMUNITY</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.junior.rai.it" target="_top" class="raibar">JUNIOR</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.teche.rai.it" target="_top" class="raibar">TECHE</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.rai.it/mappasiti" target="_top" class="raibar">MAPPA 
+              SITI</a></td>
+            <td align="center" bgcolor="#DDDDDD"><a href="http://www.rai.it/programmiaz" target="_top" class="raibar">PROGRAMMI 
+              A-Z</a></td>
+            <td align="center" bgcolor="#DDDDDD"><font color="#003399" size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td align="center" background="/radio3/images/home/bar03.gif" bgcolor="#DDDDDD"><font color="#003399" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+              <input type=HIDDEN name="method" value="mainQuery">
+              <input type=HIDDEN name="method2" value="mainQuery">
+              <input type="HIDDEN" name="QuerySummaryCB" value="querysummary">
+              <input type="HIDDEN" name="numresults" value="300">
+              <input type="HIDDEN" name="batchhits" value=10>
+              <input type="hidden" name="xoptions" value="sortboth">
+              <input type="HIDDEN" name="querythreshold" value="40">
+              <input type="hidden" name="attachto" value="db">
+              <input type="HIDDEN" name="canale" value="tutti">
+              <input type="HIDDEN" name="daterange" value="lastdays">
+              <input type="hidden" name="selectlastdays" value="10">
+              <input type="HIDDEN" name="testo" value="" class="tiny">
+              <input name="query" type="text" title="Inserisci il testo da ricercare" value="" class="tiny" style="margin: 0px;border: 1px solid green;font-size: 9px;height: 15px;width: 95px;">
+              </font></td>
+            <td width="60" align="left" valign="middle" bgcolor="00817B">&nbsp;<img src="/radio3/images/home/blankpix.gif" width="3" height="1"> 
+              <input type="Image" img name="bar_vai" src="/radio3/images/home/bar_vai.gif" align="absmiddle" alt="Trova"> 
+            </td>
+            <td align="left" valign="middle" bgcolor="00817B"><font color="#003399" size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://www.rai.it/" target="_top"><img src="/radio3/images/home/bar_rai.gif" width="73" height="20" border="0"></a></font></td>
+          </tr>
+          <tr> 
+            <td width="13" height="2" bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="15" height="2"></td>
+            <td height="2" bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100%" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="36" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="70" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100%" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="35" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="75" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="8" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100%" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100%" height="2"></td>
+            <td bgcolor="#DDDDDD"><img src="/radio3/images/home/grey.gif" width="100%" height="2"></td>
+          </tr>
+        </form>
+      </table></td>
+  </tr>
+</table>
+<TABLE cellSpacing=0 cellPadding=0 width=765 align=center border=0>
+  <TR> 
+    <TD width="250" vAlign=top bgcolor="#FFFFFF"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="122" height="67"><a href="/radio3/index.htm" target="_self"><IMG src="/radio3/images/home/logo6.gif" width="109" height="67" 
+      border=0></a></td>
+          <td width="188" height="67" align="center" valign="bottom" background="/radio3/images/home/righine1.gif"> 
+            <table border="0" cellspacing="0" cellpadding="2">
+              <tr> 
+                <td align="center" bgcolor="79C4A9"><span id="liveclock"><script> show5(); </script></span>
+				</td>
+              </tr>
+            </table>
+            <img src="/radio3/images/home/blankpix.gif" width="188" height="5"></td>
+          <td width="468" align="right" valign="middle" bgcolor="00817B"> 
+            <!-- AdSpace attr=value attr=value ... -->
+            <script>var rnd=Math.floor(1000*Math.random()+1);document.write('<IFRAME WIDTH=468 HEIGHT=60 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0  VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000"  SRC="http://www.banneradmin.rai.it/html.ng/sezione_RAI=radiorai&subsezione_RAI=radiotre&dimBanner=468x60&posBanner=up&rnd='+rnd+'">');var rnd=Math.floor(1000*Math.random()+1);document.write('<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.banneradmin.rai.it/js.ng/Params.Richmedia=yes&sezione_RAI=radiorai&subsezione_RAI=radiotre&dimBanner=468x60&posBanner=up&rnd='+rnd+'"><'+'/SCRIP'+'T>');document.write("</IFRAME>");</script> 
+            <noscript>
+            <script>var rnd=Math.floor(1000*Math.random()+1);document.write('<AHREF="http://www.banneradmin.rai.it/click.ng/Params.Richmedia=yes&sezione_RAI=radiorai&subsezione_RAI=radiotre&dimBanner=468x60&posBanner=up&rnd='+rnd+'"><IMGSRC="http://www.banneradmin.rai.it/image.ng/Params.Richmedia=yes&sezione_RAI=radiorai&subsezione_RAI=radiotre&dimBanner=468x60&posBanner=up&rnd='+rnd+'"> </A>');</script>
+            </noscript> 
+            <!-- /AdSpace -->
+          </td>
+        </tr>
+      </table></TD>
+  </TR>
+ 
+</TABLE>
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="f8f8f8"> 
+      <TABLE cellSpacing=0 cellPadding=0 width=765 align=center border=0>
+        <form name="F_Cerca" method="post" action="/radio3/search_sezioni.cfm">
+          <TR>
+            <TD width="1" align="center" vAlign=middle bgcolor="FFFFFF"><img src="images/home/blankpix.gif" width="1" height="1"></TD>
+            <TD width="250" height="60" align="center" vAlign=middle background="/radio3/images/home/top.gif"> 
+              <font class="boxcontent"> 
+                    ora in onda:</font>
+              <table width="240" height="18" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+               <tr> 
+                  <td align="center" bordercolor="#000000">
+				  <iframe src="/radio3/inclusione_hpindex.cfm" name="Palinsesto" width="100%" height="16" align="default" frameborder="0" scrolling="auto" class="boxcontent">
+                    </iframe>
+				  </td>
+                </tr>
+              </table></TD>
+            <TD height="60" align="center" vAlign=middle background="/radio3/images/home/top.gif"> 
+              <font class="boxcontent"> ascolta RADIO 3 in diretta</font><br> 
+              <a href="/radio3/ascolta.cfm" target="_top" onClick="MM_openBrWindow('/player/player.cfm?Q_CANALE=3','RadioRaiPlayer','width=500,height=421')" class="boxcontent"> 
+              <img src="/radio3/images/home/vai2.gif" width="18" hspace="10" border="0"></A> 
+            </TD>
+            <TD align="center" vAlign=middle background="/radio3/images/home/top.gif"> 
+              <font class="boxcontent">i programmi:</font> <br>
+              <select name="r2Stendina" onChange="js_goto()" class="boxcontent">
+                <option value="">::</option>
+                <option value="/radio3/terzo_anello/index.cfm,_top">Ad Alta Voce</option>
+                
+                <option value="/radio3/battiti/index.cfm,_top">Battiti</option>
+				 <option value="/radio3/dialoghipossibili/index.cfm,_top">Dialoghi possibili</option>
+                <option value="/radio3/esercizi_di_memoria/index.cfm,_top">Esercizi 
+                di memoria</option>
+                <option value="/radio3/fahrenheit/index.cfm,_top">Fahrenheit</option>
+                <option value="/radio3/hollywood_party/index.cfm,_top">Hollywood 
+                Party</option>
+                <option value="/radio3/radio3_suite/consiglio_teatrale/index.cfm,_top">Il 
+                consiglio teatrale</option>
+                <option value="/radio3/terzo_anello/index.cfm,_top">I luoghi della 
+                vita</option>
+                <option value="/radio3/terzo_anello/index.cfm,_top">Il Terzo Anello</option>
+                <option value="/radio3/barcaccia/index.cfm,_top">La Barcaccia</option>
+				<option value="/radio3/lafabbricadipolli/index.cfm,_top">La fabbrica di polli</option>
+				<option value="/radio3/grande_radio/index.cfm,_top">La Grande 
+                Radio</option>
+				<option value="/radio3/lastoriaingiallo/index.cfm,_top">La 
+                storia in giallo</option>
+				<option value="/radio3/piazzaverdi/index.cfm,_top">Piazza Verdi</option>
+                <option value="/radio3/primapagina/index.cfm,_top">Prima Pagina</option>
+                <option value="/radio3/radiotremondo/index.cfm,_top">Radiotre Mondo</option>
+                <option value="/radio3/terzo_anello/scienza/index.cfm,_top">Radio3 
+                Scienza</option>
+                <option value="/radio3/radio3_suite/index.cfm,_top">Radiotre Suite</option>
+                <option value="/radio3/radio3_suite/radio3_suite_jazz/index.cfm,_top">Radiotre 
+                Suite Jazz</option>
+				<option value="/radio3/siti/index.cfm,_top">Siti terrestri, marini e celesti</option>
+                <option value="/radio3/storyville/index.cfm,_top">Storyville</option>
+                <option value="/radio3/sullacrestadellonda/index.cfm,_top">Sulla cresta dell'onda</option>
+				<option value="/radio3/uomini_profeti/index.cfm,_top">Uomini e 
+                profeti</option>
+				<option value="/radio3/viaggio_in_europa/index.cfm,_top">Viaggio in Europa</option>
+              </select> </TD>
+            <TD align="center" vAlign=middle background="/radio3/images/home/top.gif"> 
+              <font class="boxcontent">le tematiche:</font> <br>
+              <select name="tematiche" onChange="js_goto_tematiche()" class="boxcontent">
+                <option value="">::</option>
+                <option value="/radio3/musica.cfm,_top">MUSICA</option>
+                <option value="/radio3/arte.cfm,_top">ARTE</option>
+                <option value="/radio3/cinema.cfm,_top">CINEMA</option>
+                <option value="/radio3/informazione.cfm,_top">INFORMAZIONE</option>
+                <option value="/radio3/libri.cfm,_top">LIBRI</option>
+                <option value="/radio3/scienze.cfm,_top">SCIENZE</option>
+                <option value="/radio3/teatro.cfm,_top">TEATRO</option>
+              </select></TD>
+            <TD align="center" vAlign=middle background="/radio3/images/home/top.gif"> 
+              <font class="boxcontent">cerca:</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <br> <input name="Q_KEYS" class="boxcontent" size="12" maxlength="50"> 
+              <input name="image" type="image" src="/radio3/images/home/vai.gif" width="18" height="10"> 
+            </TD>
+          </TR>
+        </form>
+      </TABLE></td>
+  </tr>
+</table>
+<table width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr align="center"> 
+    <td width="1" bgcolor="79C4A9"><img src="images/content/blankpix.gif" width="1" height="1"></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/palinsesto_full.cfm" target="_top" class="bianco">Palinsesto</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/gr3/index.cfm" target="_top" class="bianco">GR 3</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/podcast/podcast.cfm" target="_top" class="bianco">Podcast</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/email.cfm" target="_top" class="bianco">@ Le e-mail</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/progra/frequenze.cfm" target="_top" class="bianco">Frequenze</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/forum.cfm" target="_top" class="bianco">I forum</a></td>
+    <td width="14%" height="15" bgcolor="79C4A9"><a href="/radio3/archivi.cfm" target="_top" class="bianco">Archivi</a></td>
+    <td width="1" height="15" bgcolor="79C4A9"><font color="#FFFFFF">&nbsp;</font></td>
+  </tr>
+</table>
+
+<table width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td height="10" colspan="3" valign="top"></td>
+  </tr>
+  <tr> 
+    <td width="345" align="left" valign="top" bgcolor="eeeeee"> 
+      <table height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td>
+		  
+		  
+		  
+		  <table width=100% border=0 cellpadding=0 cellspacing=0>
+              <tr> 
+                <td width="100%" align="center" valign="middle"> <table width=100% border=0 align="center" cellpadding=5 cellspacing=0 bordercolor="#339966" bgcolor=#999999>
+                    <tr> 
+                      <td align="left" bordercolor="FFFFFF" bgcolor="FFFFFF" class=content> 
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr bgcolor="00817B"> 
+                            <td height="15" colspan="3" align="left" valign="top"><img src="images/home/cop_top1c.gif" width="57" height="15"></td>
+                          </tr>
+                          <tr> 
+                            <td width="15" valign="top" bgcolor="00817B"><img src="images/home/cop_top2c.gif" width="15" height="28"> 
+                            </td>
+                            <td width="100%" align="center" bgcolor="00817B"> 
+                              
+							  
+                              <table width="280" cellpadding="5" cellspacing="0" bgcolor="FFFFFF">
+                                <tr> 
+                                  <td width="280"> 
+								
+									
+									    <a href="http://www.radio.rai.it/radio3/cartellone/index.cfm" target="_self"><img src="hp_images/festival22.jpg" alt="" width="280"  border="0"></a>
+										
+								  </td>
+                                </tr>
+                              </table></td>
+                            <td width="15" valign="bottom" bgcolor="00817B"><img src="images/home/cop_top3c.gif" width="15" height="28"></td>
+                          </tr>
+                          <tr bgcolor="00817B"> 
+                            <td height="15" colspan="3" align="right" valign="bottom"><img src="images/home/cop_top4c.gif" width="57" height="15"></td>
+                          </tr>
+                        </table>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eeeeee">
+                          <tr> 
+                            <td height="8" align="center" bgcolor="#FFFFFF"> <table width="98%" border=0 cellpadding=5 cellspacing=0 bordercolor="333333">
+                                <tr bordercolor="FFFFFF"> 
+                                  <td> 
+								  
+									   <i>sabato 17 giugno 2006 </i><br><a href="http://www.radio.rai.it/radio3/cartellone/index.cfm" target="_self" class="boxtitle">con 'Eugenij Onegin' inizia il FESTIVAL DEI FESTIVAL</a>
+										 
+										  
+                                          <p class="boxcontent">Come ogni estate, torna puntuale sulle frequenze di Radio3 il Festival dei Festival, la kermesse radiofonica che trasmette tutti i piu' importanti app ...</p> <a href="view_cover.cfm?Q_POS=1" target="_top" class="boxcontent">Segue</a>  
+										  								 
+								  </td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td align="center" valign="top" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></td>
+              </tr>
+              <tr> 
+                <td align="left" valign="middle" background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></td>
+                <td align="center" valign="middle"><img src="images/home/shad5.gif" width="8" height="8"></td>
+              </tr>
+            </table>
+			
+			
+			
+            <table width=100% border=0 cellpadding=0 cellspacing=0 bgcolor="FFFFFF">
+              
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+              
+              
+              <tr> 
+                <td><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr align="right"> 
+                      <td colspan="3" bgcolor="eeeeee"><img src="images/home/lancio_topdx1.gif" width="20" height="6"></td>
+                    </tr>
+                    <tr> 
+                      <td width="7" rowspan="3" valign="bottom" bgcolor="eeeeee"><img src="images/home/lancio_downsx1.gif" width="7" height="14"></td>
+                      <td height="5" bgcolor=eeeeee></td>
+                      <td width="7" rowspan="3" valign="top" bgcolor="eeeeee"><img src="images/home/lancio_topdx2.gif" width="7" height="14"></td>
+                    </tr>
+                    <tr bgcolor="eeeeee"> 
+                      <td align="left" valign="top" bgcolor="eeeeee"> 
+					  <font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><strong>IL 
+                        CARTELLONE MUSICALE</strong> </font> <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr> 
+                            <td align="center" valign="middle"> <a name="oggi"></a> 
+                               <table width="98%" border="0" cellpadding="2" cellspacing="0" bordercolor="339966" vspace="0" hspace="0">
+                                 
+                                <tr align="center"> 
+                                  <td colspan="3" valign="top"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="cartellone/index.cfm" 
+            target=_top class="boxtitle">Tutta la musica dal vivo su Radio3</a></font></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr bgcolor="eeeeee"> 
+                      <td height="5" bgcolor="#eeeeee"></td>
+                    </tr>
+                    <tr align="left" valign="bottom"> 
+                      <td height="6" colspan="3" bgcolor="eeeeee"><img src="images/home/lancio_downsx2.gif" width="20" height="6"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr bgcolor="79C4A9"> 
+                      <td height="10" colspan="3" align="left" valign="top"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr bgcolor="79C4A9"> 
+                      <td width="8" valign="top"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td height="40" align="left" valign="top" bgcolor="79C4A9">					  <p><a href="terzo_anello/index.cfm" target="_top" class="bianco">
+					  <img src="images/home/3anello.gif" width="83" height="35" hspace="5" vspace="5" border="0" align="left">
+					  IL TERZO ANELLO DI RADIO3</a><br>
+					  <font class=boxcontent>comprende diversi programmi: 
+					  <a href="terzo_anello/index.cfm" target="_top" class="bianco">Ad alta voce</a>, 
+					  <a href="terzo_anello/scienza/index.cfm" target="_top" class="bianco">Radio3Scienza</a>, 
+					  <a href="terzo_anello/luoghi_vita/" target="_top" class="bianco">I luoghi della vita</a>, 
+					  <a href="terzo_anello/damasco/" target="_top" class="bianco">Damasco</a>, <a href="terzo_anello/aladino/" target="_top" class="bianco">Aladino</a> e molti altri, da consultare e ascoltare nel sito.</font></p>
+					    <p align="right"><a href="terzo_anello/musica/" target="_top" class="bianco">
+					   <img src="images/home/3anello_musica3.gif" width="70" height="71" hspace="5" vspace="5" border="0" align="right">
+					   IL TERZO ANELLO MUSICA</a>
+				      </p>				      </td>
+					   <td width="8" align="right" valign="bottom">
+					  <img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr bgcolor="79C4A9"> 
+                      <td height="10" colspan="3" align="right" valign="bottom"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="opera/index.cfm" target="_top" class="bianco"><img src="images/home/opera.jpg" alt="Opera" width="36" height="36" border="0"></a> </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="opera/index.cfm" target="_top" class="bianco">OPERA</a> <br>
+                          <font class=boxcontent>Appuntamento su Radio3 con l'opera.</font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr>
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="concertidelmattino/index.cfm" target="_top" class="bianco"><img src="images/home/concerti-mattino.jpg" alt="Opera" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="concertidelmattino/index.cfm" target="_top" class="bianco">I CONCERTI DEL MATTINO</a> 
+                        <br> <font class=boxcontent>Dal lunedì al venerdì, dalle ore 12.00 alle 13.00. </font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr> 
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr bgcolor="79C4A9"> 
+                      <td height="10" colspan="5" align="left" valign="top"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr bgcolor="79C4A9"> 
+                      <td width="8" valign="top"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="primapagina/intro.cfm" target="_top" class="bianco"><img src="images/home/primapagina.jpg" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="primapagina/intro.cfm" target="_top" class="bianco">PRIMA 
+                        PAGINA</a><br> <font class=boxcontent>il sito della trasmissione 
+                        dedicata alla lettura e al commento quotidiano dei giornali. 
+                        </font> </td>
+                      <td width="8" align="right" valign="bottom"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr bgcolor="79C4A9"> 
+                      <td height="10" colspan="5" align="right" valign="bottom"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="fahrenheit/index.cfm" target="_top" class="bianco"><img src="images/content/fahrenheit.gif" alt="Fahrenheit" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="fahrenheit/index.cfm" target="_top" class="bianco">FAHRENHEIT</a> 
+                        <br> <font class=boxcontent>Dal luned&igrave; al venerd&igrave;, 
+                        dalle 15 alle 18.</font><font class=boxcontent>&nbsp; 
+                        </font><font class=boxcontent>&nbsp; </font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr> 
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td height="10" colspan="6" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="6" align="center" valign="middle" bgcolor="79C4A9">&nbsp;</td>
+                      <td width="40" height="40" align="center" valign="middle"><a href="radiotremondo/index.cfm" target="_top" class="bianco"><img src="images/home/radiotremondo.gif" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="radiotremondo/index.cfm" target="_top" class="bianco">RADIO3 
+                        MONDO </a><br> <font class=boxcontent>"Radio3 Mondo&quot; 
+                        diventa più grande e si occupa anche dell'Italia.</font><font class=boxcontent>&nbsp; 
+                        </font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr> 
+                      <td height="10" colspan="6" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="concerti_quirinale/index.cfm" target="_top" class="bianco"><img src="images/home/quirinale1.gif" alt="I Concerti del Quirinale" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="concerti_quirinale/index.cfm" target="_top" class="bianco">I 
+                        CONCERTI DEL QUIRINALE DI RADIO3</a> <br> <font class=boxcontent>Mese 
+                        per mese, il programma dei concerti alla Cappella Paolina</font><font class=boxcontent>&nbsp; 
+                        </font><font class=boxcontent>&nbsp; </font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr> 
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/radio3/radio3_suite/index.cfm" target="_top" class="bianco"><img src="images/home/drama.jpg" alt="Radiotre Suite" width="36" height="36" border="0"></a> </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="/radio3/radio3_suite/index.cfm" target="_top" class="bianco"> RADIO 3 SUITE</a><br>                          </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr>
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr> 
+                      <td width="8" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> 
+                      </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="esercizi_di_memoria/fonorama/index.cfm" target="_top" class="bianco"><img src="images/content/quadrottoperjazz.jpg" alt="Radiotre Suite Jazz e Battitit" width="36" height="36" border="0"></a> 
+                      </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="esercizi_di_memoria/fonorama/index.cfm" target="_top" class="bianco"> 
+                        RADIOTRE SUITE JAZZ &amp; BATTITI</a><br> <font class=boxcontent>L'altra 
+                        musica di Radio3</font> </td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr> 
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#FFFFFF">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="10" colspan="5" align="left" valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx2.gif" width="27" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td valign="top" bgcolor="79C4A9"><img src="images/home/lanciov_topdx1.gif" width="8" height="17"> </td>
+                      <td height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="laviadipaoloegiovanni/index.cfm" target="_top" class="bianco"><img src="images/home/laviadipaoloegiovanni.gif" alt="La Via Lattea" width="36" height="36" border="0"></a> </td>
+                      <td align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="esercizi_di_memoria/fonorama/index.cfm" target="_top" class="bianco"> </a><a href="laviadipaoloegiovanni/index.cfm" target="_top" class="bianco">LA VIA DI PAOLO E GIOVANNI</a></td>
+                      <td align="right" valign="bottom" bgcolor="79C4A9">&nbsp;</td>
+                    </tr>
+                    <tr bgcolor="79C4A9">
+                      <td height="5" valign="top"></td>
+                      <td height="5" align="center" valign="middle"></td>
+                      <td height="5" align="left" valign="top"></td>
+                      <td height="5" align="left" valign="top"></td>
+                      <td height="5" align="right" valign="bottom"></td>
+                    </tr>
+                    <tr>
+                      <td valign="top" bgcolor="79C4A9">&nbsp; </td>
+                      <td height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="laviafrancigena/index.cfm" target="_top" class="bianco"><img src="images/home/francigena.gif" alt="La Via Francigena" width="36" height="36" border="0"></a> </td>
+                      <td align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="esercizi_di_memoria/fonorama/index.cfm" target="_top" class="bianco"> </a><a href="laviafrancigena/index.cfm" target="_top" class="bianco">LA VIA FRANCIGENA</a></td>
+                      <td align="right" valign="bottom" bgcolor="79C4A9">&nbsp;</td>
+                    </tr>
+                    <tr bgcolor="79C4A9">
+                      <td height="5" valign="top"></td>
+                      <td height="5" align="center" valign="middle"></td>
+                      <td height="5" align="left" valign="top"></td>
+                      <td height="5" align="left" valign="top"></td>
+                      <td height="5" align="right" valign="bottom"></td>
+                    </tr>
+                    <tr>
+                      <td width="8" valign="top" bgcolor="79C4A9">&nbsp; </td>
+                      <td width="40" height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="via_lattea/index.cfm" target="_top" class="bianco"><img src="images/home/lattea.gif" alt="La Via Lattea" width="36" height="36" border="0"></a> </td>
+                      <td width="8" align="left" valign="top" bgcolor="79C4A9">&nbsp;</td>
+                      <td align="left" valign="top" bgcolor="79C4A9"><a href="esercizi_di_memoria/fonorama/index.cfm" target="_top" class="bianco"> </a><a href="via_lattea/index.cfm" target="_top" class="bianco">LA VIA LATTEA</a></td>
+                      <td width="8" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx1.gif" width="8" height="17"></td>
+                    </tr>
+                    <tr>
+                      <td height="10" colspan="5" align="right" valign="bottom" bgcolor="79C4A9"><img src="images/home/lanciov_downdx2.gif" width="27" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr> 
+                <td bgcolor=FFFFFF>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="eeeeee"> <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="eeeeee">
+                    <tr align="right" bgcolor="eeeeee"> 
+                      <td colspan="3"><img src="images/home/lancio_topdx1.gif" width="20" height="6"></td>
+                    </tr>
+                    <tr bgcolor="eeeeee"> 
+                      <td valign="bottom">&nbsp;</td>
+                      <td bgcolor=#eeeeee><font class="boxtitle">IERI...</font> 
+                        <br> <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eeeeee">
+                          <tr bgcolor="eeeeee"> 
+                            <td bgcolor="#eeeeee"> <font size="1"> 
+                              
+                              
+                              
+                              </font>  <font size="1"> 
+                              <img height=10 hspace=0 width=18 border=0 src="images/home/vai.gif"> 
+                              
+                              
+                                <a href="http://www.radio.rai.it/radio3/primapagina/" target="_top">Primapagina<br>
+                                </a> 
+                                
+                              </font>  <font size="1"> 
+                              <b> <a href="view.cfm?Q_EV_ID=179916">Le bolle di sapone. L'inchiesta di Potenza e il costume giudiziario </a></b><br> 
+                               <font size="1"> 
+                              <img height=10 hspace=0 width=18 border=0 src="images/home/vai.gif"> 
+                              
+                              
+                                <a href="http://www.radio.rai.it/radio3/terzo_anello/musica/" target="_top">Il Terzo Anello - Musica<br>
+                                </a> 
+                                
+                              </font>  <font size="1"> 
+                              <b> <a href="view.cfm?Q_EV_ID=179341">Johann Sebastian Bach: Osteroratorium - Barockorchester Stuttgart</a></b><br> 
+                               <font size="1"> 
+                              <img height=10 hspace=0 width=18 border=0 src="images/home/vai.gif"> 
+                              
+                              
+                                <a href="http://www.radio.rai.it/radio3/terzo_anello/musica/" target="_top">Il Terzo Anello - Musica<br>
+                                </a> 
+                                
+                              </font>  <font size="1"> 
+                              <b> <a href="view.cfm?Q_EV_ID=179342">Johannes Brahms: Four Hand Piano Music Vol.15 - Silke - Thora Matthies</a></b><br> 
+                               <font size="1"> 
+                              <img height=10 hspace=0 width=18 border=0 src="images/home/vai.gif"> 
+                              
+                              
+                                <a href="http://www.radio.rai.it/radio3/uomini_profeti/" target="_top">Uomini e profeti<br>
+                                </a> 
+                                
+                              </font>  <font size="1"> 
+                              <b> <a href="view.cfm?Q_EV_ID=178811">'Immagini del Dio vivente' con Enzo Bianchi 2a puntata: L'icona della Natività</a></b><br> 
+                               
+                            </td>
+                          </tr>
+                        </table></td>
+                      <td width="7" valign="top"><img src="images/home/lancio_topdx2.gif" width="7" height="14"></td>
+                    </tr>
+                    <tr align="left" valign="bottom" bgcolor="eeeeee"> </tr>
+                  </table></td>
+              </tr>
+            </table>
+			
+			
+			
+			
+            <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+              <tr align="right" bgcolor="eeeeee"> 
+                <td width="7" height="100%" colspan="3" bgcolor="eeeeee">&nbsp; </td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+    </table></td>
+    <td width="15" align="left" valign="top"><img src="images/home/blankpix.gif" alt="" width=10 height=1 
+      border=0></td>
+    <TD vAlign=top bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <TR vAlign=top bgcolor="#ffffff"> 
+          <TD bgcolor="#ffffff"><img src="images/home/blankpix.gif" width="1" height="5"></TD>
+        </TR>
+        <TR vAlign=top bgcolor="#ffffff"> 
+          <TD bgcolor="#ffffff"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+              
+			  
+			    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/radio3_suite/index.cfm" target="_self"><img src="hp_images/primafila3.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                   
+									   <i>Dal 17 giugno al 17 settembre </i><br><a href="http://www.radio.rai.it/radio3/radio3_suite/index.cfm" target="_self" class="boxtitle">PRIMA FILA - Sabato ore 15.00-19.45 - Domenica 15-.00-18.45</a>
+										 
+										  
+                                          <p class="boxcontent">Comincia sabato 17 giugno alle ore 15.00 "Prima Fila", l'approfondimento del fine settimana di Radio3 Suite curato da Alessandra D'Angelo. Il programm ...</p> <a href="view_lancio.cfm?Q_POS=3" target="_top" class="boxcontent">Segue</a> 
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="#" target="_self"><img src="hp_images/due-sul-tre.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                  
+									   <i>dal lunedì al venerdì dalle 14.00 alle 15.00</i><br><a href="#" target="_self" class="boxtitle">DALLE 2 ALLE 3</a>
+										 
+										  
+                                          <p class="boxcontent">E torna nel palinsesto estivo di Radio3 anche "Dalle 2 alle 3", programma curato da Anna Rita Caroli in onda dal lunedi' al venerdi' (ore 14.00-15.00) ...</p> <a href="view_lancio.cfm?Q_POS=4" target="_top" class="boxcontent">Segue</a> 
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/terzo_anello/aladino/" target="_self"><img src="hp_images/aladino[1].jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                   
+									   <i>Dal lunedì al venerdì dalle 13.00 alle 13.45 </i><br><a href="http://www.radio.rai.it/radio3/terzo_anello/aladino/" target="_self" class="boxtitle">Il Terzo Anello -  ALADINO</a>
+										 
+										  
+                                          <p class="boxcontent">Ricomincia lunedì 29 maggio Aladino, l'appuntamento quotidiano con il mondo dello spettacolo, dedicato all'informazione sul vivace mondo dei festival ...</p> <a href="view_lancio.cfm?Q_POS=5" target="_top" class="boxcontent">Segue</a> 
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/hollywood_party/index.cfm" target="_self"><img src="hp_images/sonia-bergamasco.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                   
+									   <i></i><br><a href="http://www.radio.rai.it/radio3/hollywood_party/index.cfm" target="_self" class="boxtitle">Hollywood Party</a>
+										 
+										  
+                                          <p class="boxcontent">Ascolta le interviste realizzate nei nostri studi: l'ultima inserita è quella a Sonia Bergamasco. 
+										  </p>
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/terzo_anello/alta_voce/archivio_2006/eventi/2006_06_01_ilmaestroemargherita/index.cfm" target="_self"><img src="hp_images/il-maestroe-margherita.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                  
+									   <i>dal lunedì al venerdì, ore 9.30-10.00</i><br><a href="http://www.radio.rai.it/radio3/terzo_anello/alta_voce/archivio_2006/eventi/2006_06_01_ilmaestroemargherita/index.cfm" target="_self" class="boxtitle">Massimo Popolizio legge AD ALTA VOCE  'Il maestro e Margherita'</a>
+										 
+										  
+                                          <p class="boxcontent">E' "Il Maestro e Margherita" di Michail Bulgakov il grande classico del mese di giugno scelto da "Ad Alta Voce", il seguitissimo programma mattutino d ...</p> <a href="view_lancio.cfm?Q_POS=8" target="_top" class="boxcontent">Segue</a> 
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/terzo%5Fanello/damasco/" target="_self"><img src="hp_images/coveruccia.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                   
+									   <i>Dal lunedì al venerdì, alle ore 18.00</i><br><a href="http://www.radio.rai.it/radio3/terzo%5Fanello/damasco/" target="_self" class="boxtitle">Il Terzo Anello -  DAMASCO</a>
+										 
+										  
+                                          <p class="boxcontent">Dal lunedì al venerdì, alle ore 18, grandi personaggi italiani del mondo della letteratura, della cultura e della scienza ci spiegano i testi che sono ...</p> <a href="view_lancio.cfm?Q_POS=9" target="_top" class="boxcontent">Segue</a> 
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				<TR vAlign=top bgcolor="ffffff"> 
+				<TD bgcolor="ffffff">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="339966" bgcolor="79C4A9">
+                          <TR bordercolor="FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              			    
+							  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee">
+									
+									   <a href="http://www.radio.rai.it/radio3/mondogoal/" target="_self"><img src="hp_images/mondo-goalpicc.jpg" alt="" width="70"  border="0"></a>
+								     
+									</td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+					                   
+									   <i>sabato e domenica alle 10.50</i><br><a href="http://www.radio.rai.it/radio3/mondogoal/" target="_self" class="boxtitle">MONDO GOAL di Antonella Ferrera e Marco Franzelli</a>
+										 
+										  
+                                          <p class="boxcontent">I campionati del mondo di calcio: una vetrina di eventi leggendari e di personaggi consegnati al mito. 
+										  </p>
+										  
+								  </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  </TD>
+				  </TR>
+				    
+				  
+				  <TR vAlign=top bgcolor="#ffffff"> 
+				<TD bgcolor="#ffffff"> 
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=179808"><img src="/radiorai/online/ev_images/apertura24.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">
+                                     
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Fahrenheit</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=179808" class="boxtitle"><b>SCRITTURA VAGABONDA</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">Un volta erano i flâneur, intellettuali-antropologi che osservavano l'animale cittadino per raccontarne i tic. Oggi lo sguardo degli scrittori della c ...</p> 
+									  <a href="view.cfm?Q_EV_ID=179808" target="_top" class="boxcontent">Segue</a> 
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table>
+				  
+				  </TD>
+              </TR>
+			  
+			   
+			  		  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+
+			  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=179798"><img src="/radiorai/online/ev_images/pipistrello.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Il Terzo Anello: Radio3 Scienza</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=179798" class="boxtitle"><b>Mammiferi a testa in giù</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  
+									  <p class="boxcontent">Si cibano di sangue umano. Si attaccano ai capelli. Sono animali ciechi. I pipistrelli sono sicuramente tra gli animali che hanno alimentato le più di ...</p> 
+									  <a href="view.cfm?Q_EV_ID=179798" target="_top" class="boxcontent">Segue</a> 
+									   
+									  
+								    </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+			  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+			  
+
+				  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=178559"><img src="/radiorai/online/ev_images/onegin.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Radio3  Suite</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=178559" class="boxtitle"><b>Evgenij Onegin</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">-	E' l'opera lirica più celebre del suo autore, il capolavoro del teatro operistico cajkovskijano accanto alla Dama di Picche. Psicologico il primo e ...</p> 
+									  <a href="view.cfm?Q_EV_ID=178559" target="_top" class="boxcontent">Segue</a> 
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+			  
+			  
+			  
+			  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=178811"><img src="/radiorai/online/ev_images/giotto2.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Uomini e profeti</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=178811" class="boxtitle"><b>'Immagini del Dio vivente' con Enzo Bianchi 2a puntata: L'icona della Natività</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">In questa seconda puntata del ciclo dedicato alle icone, ci soffermiamo, sempre in compagnia di <b>Enzo Bianchi</b>, Priore della Comunità monastica d ...</p> 
+									  <a href="view.cfm?Q_EV_ID=178811" target="_top" class="boxcontent">Segue</a> 
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+			  
+		
+			  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=179341"><img src="/radiorai/online/ev_images/Bach1.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Il Terzo Anello - Musica</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=179341" class="boxtitle"><b>Johann Sebastian Bach: Osteroratorium - Barockorchester Stuttgart</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">Novita' discografica del 18 giugno ore 10. 
+									  </p>
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+
+			  
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    
+									<a href="view.cfm?Q_EV_ID=179185">
+									  <img src="/radiorai/online/ev_images/ADULESCU.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                        </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>Esercizi di memoria: suoni dall'archivio della radio</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=179185" class="boxtitle"><b>RADU ALDULESCU - In onda sabato 17 e domenica 18 giugno 2006 alle ore 24.00</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">RADU ALDULESCU
+ 
+
+La trasmissione di Arrigo Quattrocchi, a cura di Lorenzo Chiera, dedica le puntate del quarto fine settimana di giugno al violonc ...</p> 
+									  <a href="view.cfm?Q_EV_ID=179185" target="_top" class="boxcontent">Segue</a> 
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD bgcolor="#ffffff"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <TR vAlign=top> 
+                      <TD width="100%" align="left" vAlign=top bgcolor="#666666"> 
+                        <TABLE width="100%" border=0 cellPadding=0 cellSpacing=5 bordercolor="#339966" bgcolor="79C4A9">
+                          <TR bordercolor="#FFFFFF"> 
+                            <td width="100%" align="center" valign="middle" bgcolor="79C4A9"> 
+                              
+                               <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+                                <tr align="right" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa02b.gif" width="22" height="8"></td>
+                                  <td width="8" rowspan="2" valign="top"><img src="images/home/angoloa02.gif" width="8" height="22"></td>
+                                </tr>
+                                <tr bgcolor="#FFFFFF"> 
+                                  <td width="8" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/home/angoloa04.gif" width="8" height="22"></td>
+                                  <td width="80" height="80" align="center" valign="middle" bgcolor="eeeeee"> 
+                                    <a href="view.cfm?Q_EV_ID=178940"><img src="/radiorai/online/ev_images/cavallo_pazzo.jpg" width="70" hspace="0" vspace="0" border="0"></a> 
+                                       </td>
+                                  <td width="8" valign="top">&nbsp;</td>
+                                  <td valign="top">  
+                                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><i>La storia in giallo</i></font><br>
+                                      <a href="view.cfm?Q_EV_ID=178940" class="boxtitle"><b>Cavallo Pazzo</b></a> &nbsp; <br>
+                                      <br>
+                                      
+									  
+									  <p class="boxcontent">Cavallo Pazzo, il "figlio del tuono", è stato forse l'ultimo vero guerriero degli Indiani delle Grandi Praterie. Una figura ammantata dall'alone del m ...</p> 
+									  <a href="view.cfm?Q_EV_ID=178940" target="_top" class="boxcontent">Segue</a> 
+									   </td>
+                                </tr>
+                                <tr align="left" valign="bottom" bgcolor="#FFFFFF"> 
+                                  <td height="8" colspan="4"><img src="images/home/angoloa04b.gif" width="22" height="8"></td>
+                                </tr>
+                              </table></td>
+                          </TR>
+                        </TABLE></TD>
+                      <TD align="left" background="images/home/shad1.gif"><img src="images/home/shad2.gif" width="8" height="8"></TD>
+                    <TR vAlign=top> 
+                      <TD align="left" vAlign=top background="images/home/shad3.gif"><img src="images/home/shad4.gif" width="8" height="8"></TD>
+                      <TD align="left" vAlign=top background="images/home/shad1.gif"><img src="images/home/shad5.gif" width="8" height="8"></TD>
+                  </table></TD>
+              </TR>
+              <TR vAlign=top bgcolor="#ffffff"> 
+                <TD height="8" bgcolor="#ffffff"></TD>
+              </TR>
+
+
+            </table></TD>
+        </TR>
+      </table></TD>
+  </tr>
+</table>
+<br>
+<TR> 
+  <TD class=content vAlign=center align=middle bgColor=#c0c0c0 
+      height=22><div align="center"></div></TD>
+</TR>
+</TABLE> 
+</TD> 
+</TR> 
+  <link href="/radio3/radio3d.css" rel="stylesheet" type="text/css">
+
+<TR> 
+  <TD class=content vAlign=center align=middle bgColor=#c0c0c0 
+      height=22><div align="center">
+    <table width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="/radio3/images/home/prcolor2.gif"><img src="/radio3/images/home/blankpix.gif" width="1" height="5"></td>
+      </tr>
+    </table>
+    <br>
+    <div align="center"><A class=red2 href="/radio3/"><font color="#000000" size="1" face="Verdana, Arial, Helvetica, sans-serif">Home</font></A><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+      | <a href="#" onClick="MM_openBrWindow('/player/player.cfm?Q_CANALE=3','RadioRaiPlayer','width=500,height=421')"><font color="#FF6600">Ascolta 
+      Radio3</font></A> | <A class=red2 href="mailto:radiotre@rai.it"><font color="#666666">Scrivi</font></A> 
+      | <A 
+      href="/radio3/musica.cfm" target="_top" 
+      class=red2><font color="#FF0000">Musica</font></A> | <A href="/radio3/arte.cfm" target="_top" class=red2><font color="#999900">Arte</font></A> 
+      | <A href="/radio3/cinema.cfm" target="_top" class=red2><font color="#0000FF">Cinema</font></A> 
+      | <A href="/radio3/informazione.cfm" target="_top" class=red2><font color="#FF0000">Informazione</font></A> 
+      | <A href="/radio3/libri.cfm" target="_top" class=red2><font color="#009900">Libri</font></A> 
+      | <A href="/radio3/scienze.cfm" target="_self" class=red2><font color="#FF9900">Scienze</font></A> 
+      | <A href="/radio3/teatro.cfm" target="_top" class=red2><font color="#3333CC">Teatro</font></A> 
+      </font><BR>
+    </div></TD>
+</TR>
+<div align="center"></TABLE> </P></TD> </TR> 
+  
+<table border="0" cellspacing="0" cellpadding="8" align="center" width="765" bgcolor="#EAEAEA">
+  <tr bordercolor="#FFFFFF"> 
+    <td align="left" valign="middle"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td align="center"> <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Realizzato 
+              da Rainet</font></p>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- START RedMeasure V4 - Java v1.1  Revision: 1.8 -->
+<!-- COPYRIGHT 2000 Red Sheriff Limited -->
+
+<script language="JavaScript">
+<!--
+  var pCid="it_rainet-it_0";
+  var w0=1;
+  var refR=escape(document.referrer);
+  if (refR.length>=252) refR=refR.substring(0,252)+"...";
+//-->
+</script>
+
+<script language="JavaScript1.1">
+<!--
+  var w0=0;
+//-->
+</script>
+
+<script language="JavaScript1.1" src="http://server-it.imrworldwide.com/a1.js">
+</script>
+
+<script language="JavaScript">
+<!--
+  if(w0){
+  var imgN='<img src="http://server-it.imrworldwide.com/cgi-bin/count?ref='+ refR+'&cid='+pCid+'" width=1 height=1>';
+  if(navigator.userAgent.indexOf('Mac')!=-1){document.write(imgN);
+  }else{
+   document.write('<applet code="Measure.class" '+ 'codebase="http://server-it.imrworldwide.com/"'+'width=1 height=2>'+
+ '<param name="ref" value="'+refR+'">'+'<param name="cid" value="'+pCid+'"><textflow>'+imgN+'</textflow></applet>');
+ }
+}
+document.write("<COMMENT>");
+//-->
+
+</script>
+<noscript>
+<img src="http://server-it.imrworldwide.com/cgi-bin/count?cid=it_rainet-it_0" alt="." width=1 height=1> 
+</noscript>
+</COMMENT>
+
+<!-- END RedMeasure V4 -->   
+
+
+</BODY>
+</HTML>
+

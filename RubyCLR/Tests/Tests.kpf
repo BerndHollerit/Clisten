@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="0DAA927F-E1CD-4826-BD39-7459BCB7A7A9" name="Tests" kpf_version="2">
+<preference-set id="">
+</preference-set>
+<file url="file:///C:/Dev/RubyClr/Tests/tests.rb" id="84B38D11-C865-4A72-8225-C0B56FF93447" name="tests.rb">
+</file>
+<file url="file:///C:/Dev/RubyClr/Tests/tests_rbdynamicmethod.rb" id="8AAFC5DF-29F4-437F-B3D0-DA9CCC7E4F74" name="tests_rbdynamicmethod.rb">
+</file>
+<file url="file:///C:/Dev/RubyClr/Tests/tests_rubyclr.rb" id="EDF6BCB8-16E1-46D9-B56E-87795221CA52" name="tests_rubyclr.rb">
+</file>
+</project>

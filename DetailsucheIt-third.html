@@ -1,0 +1,107 @@
+<html>
+ <head>
+  <title></title>
+ 
+</head>
+<body style="overflow: hidden">
+
+
+<center>
+<script type="text/javascript">
+var wert="";
+var a="";
+var b="";
+function schreib(wert)
+{
+var Size = document.Tastatur.copy[0].checked ? 1 : 0 || document.Tastatur.copy[1].checked ? 2 : 0;
+if (Size ==1){wert = wert.toLowerCase()}
+a=a+wert;
+document.Tastatur.Text.value=a;
+}
+function loesch()
+{
+b=a;
+a="";
+}
+function unloesch()
+{
+a=b;
+document.Tastatur.Text.value=a;
+}
+</script>
+<div align="center">
+  <center>
+<table bgcolor=#FFCC99 height="224" width="210" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0" cellspacing="0"><tr>
+  <td height="31" bgcolor="#FFFFFF" width="222">
+    <img border="0" src="images/TitelDetailsuche.gif" width="208" height="30"></td></tr><tr>
+  <td height="18" width="222">
+Suche:</td></tr><tr>
+  <td height="58" width="222">
+<form name="Tastatur">
+<div align="center">
+<textarea rows=1 cols=23 align="center" name="Text" wrap=physical readonly></textarea>&nbsp;
+<a title="Suche" href="SuchergebnisseProntoSalute-third.html">
+    <img border="0" src="images/s-sucheOrange.gif" width="80" height="23"></a></div>
+<p align="center">
+
+<input type="button" value="&nbsp;1&nbsp;" onclick="schreib('1')">
+<input type="button" value="&nbsp;2&nbsp;" onclick="schreib('2')">
+<input type="button" value="&nbsp;3&nbsp;" onclick="schreib('3')">
+<input type="button" value="&nbsp;4&nbsp;" onclick="schreib('4')">
+
+<input type="button" value="&nbsp;5&nbsp;" onclick="schreib('5')">
+<input type="button" value="&nbsp;6&nbsp;" onclick="schreib('6')">
+<input type="button" value="&nbsp;7&nbsp;" onclick="schreib('7')">
+<input type="button" value="&nbsp;8&nbsp;" onclick="schreib('8')">
+<br>
+<input type="button" value="&nbsp;Q&nbsp;" onclick="schreib('Q')">
+<input type="button" value="&nbsp;W&nbsp;" onclick="schreib('W')">
+<input type="button" value="&nbsp;E&nbsp;" onclick="schreib('E')">
+<input type="button" value="&nbsp;R&nbsp;" onclick="schreib('R')">
+<input type="button" value="&nbsp;T&nbsp;" onclick="schreib('T')">
+<input type="button" value="&nbsp;Z&nbsp;" onclick="schreib('Z')">
+<input type="button" value="&nbsp;U&nbsp;" onclick="schreib('U')">
+<input type="button" value="&nbsp;I&nbsp;" onclick="schreib('I')">
+<input type="button" value="&nbsp;O&nbsp;" onclick="schreib('O')">
+<input type="button" value="&nbsp;P&nbsp;" onclick="schreib('P')">
+<input type="button" value="&nbsp;A&nbsp;" onclick="schreib('A')">
+<input type="button" value="&nbsp;S&nbsp;" onclick="schreib('S')">
+<input type="button" value="&nbsp;D&nbsp;" onclick="schreib('D')">
+<input type="button" value="&nbsp;F&nbsp;" onclick="schreib('F')">
+<input type="button" value="&nbsp;G&nbsp;" onclick="schreib('G')">
+<input type="button" value="&nbsp;H&nbsp;" onclick="schreib('H')">
+<input type="button" value="&nbsp;J&nbsp;" onclick="schreib('J')">
+<input type="button" value="&nbsp;K&nbsp;" onclick="schreib('K')">
+<input type="button" value="&nbsp;L&nbsp;" onclick="schreib('L')">&nbsp;<input type="button" value="&nbsp;Y&nbsp;" onclick="schreib('Y')">
+<input type="button" value="&nbsp;X&nbsp;" onclick="schreib('X')">
+<input type="button" value="&nbsp;C&nbsp;" onclick="schreib('C')">
+<input type="button" value="&nbsp;V&nbsp;" onclick="schreib('V')">
+<input type="button" value="&nbsp;B&nbsp;" onclick="schreib('B')"> 
+<input type="button" value="&nbsp;M&nbsp;" onclick="schreib('M')">
+<input type="button" value="&nbsp;N&nbsp;" onclick="schreib('N')">
+<input type="button" value="&nbsp;&Auml;&nbsp;" onclick="schreib('&Auml;')">
+<input type="button" value="&nbsp;&Ouml;&nbsp;" onclick="schreib('&Ouml;')">
+<input type="button" value="&nbsp;&Uuml;&nbsp;" onclick="schreib('&Uuml;')">
+<input type="button" value="&nbsp;-&nbsp;" onclick="schreib('-')">
+
+<input type="button" value="&nbsp;:&nbsp;" onclick="schreib(':')">
+<br>
+
+<input type=radio name="copy" checked>Kleinbuchstaben&nbsp;&nbsp;&nbsp; <input type="button" value="ENTER" name="enter" onclick="schreib('\r')"><br>
+&nbsp;<input type=radio name="copy" value="1">Groﬂbuchstaben&nbsp;&nbsp;<input type="button" value="&nbsp;&nbsp;Space&nbsp;&nbsp;" onclick="schreib(' ')"> </p>
+<center>
+<p>
+<input type=button value="L&ouml;schen" onclick="reset(),loesch()">
+<input type=button value="R&uuml;ckg&auml;ngig" onclick="unloesch()">
+</p>
+<p>
+<a href="SenderItalien-third.html">
+<img border="0" src="zur¸ckviereckig.gif" width="110" height="24"></a></p>
+</form>
+</td></tr></table>
+
+  </center>
+</div>
+
+</body>
+</html>
